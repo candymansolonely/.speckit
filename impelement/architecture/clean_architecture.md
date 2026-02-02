@@ -1,9 +1,9 @@
-# Clean Architecture C# Web API - Cấu trúc Dự Án
+ Clean Architecture C# Web API - Cấu trúc Dự Án
 
 ## Tổng Quan Kiến Trúc
 
 Clean Architecture được tổ chức thành các layer độc lập, với dependencies luôn hướng vào trong (từ ngoài vào core):
-
+![alt text](image.png)
 ```
 YourProject/
 │── YourProject.Domain/              # Core/Entities Layer
@@ -14,8 +14,6 @@ YourProject/
 ├── README.md
 └── YourProject.sln
 ```
-
----
 
 ## 1. Domain Layer (YourProject.Domain)
 
